@@ -15,10 +15,12 @@ main { width:min(940px,calc(100% - 32px)); margin:38px auto; }
 section { margin:22px 0; padding:28px 32px; background:var(--panel); border:1px solid #ffffff14; border-radius:14px; }
 h2 { margin-top:0; color:#65e99f; } .warning { border-color:#ff756b; background:#3a252c; } .warning h2 { color:#ffb0aa; }
 .download { border-color:var(--green); } .download-button { display:inline-block; padding:14px 22px; border-radius:7px; background:var(--green); color:#102219; font-weight:800; text-decoration:none; box-shadow:0 5px 18px #0b8f4c55; } .download-button:hover { background:#65e99f; transform:translateY(-1px); } .release-link { margin-bottom:0; font-size:.92rem; } a { color:#75eaaa; }
+.download-count { display:inline-block; margin:0 0 0 14px; color:#8df0b9; font-size:.92rem; font-weight:700; }
+.security-note { margin-top:22px; padding:16px 18px; border-left:4px solid #65e99f; border-radius:6px; background:#151f1b; } .security-note strong { color:#8df0b9; } .security-note p { margin:.45rem 0 0; }
 .support { border-color:#ff5e8a; } .support h2,.support h3 { color:#ff91af; } .support h3 { margin-top:28px; } .support-button { display:inline-block; padding:12px 20px; border-radius:7px; background:#ff5e8a; color:#24121a; font-weight:800; text-decoration:none; box-shadow:0 5px 18px #ff5e8a44; } .support-button:hover { background:#ff91af; transform:translateY(-1px); }
 .discord-contact { display:flex; align-items:center; gap:14px; width:max-content; max-width:100%; padding:12px 18px; border:1px solid #7487ff; border-radius:9px; background:#171b35; }
 .discord-contact span { color:#aeb8ff; font-weight:700; }
 .discord-contact strong { font-size:1.2rem; letter-spacing:.04em; }
 code { background:#11111c; padding:2px 6px; border-radius:4px; } .legal,p,li { color:var(--muted); } strong { color:white; }
 footer { padding:30px; text-align:center; color:#aeb5bf; border-top:1px solid #ffffff16; }
-@media(max-width:600px){ header{flex-direction:column;text-align:center}.plumbob{width:58px;height:82px;font-size:38px}.hero-actions{justify-content:center}.hero-actions a{width:100%}section{padding:22px} }
+@media(max-width:600px){ header{flex-direction:column;text-align:center}.plumbob{width:58px;height:82px;font-size:38px}.hero-actions{justify-content:center}.hero-actions a{width:100%}.download-count{display:block;margin:12px 0 0}section{padding:22px} }
