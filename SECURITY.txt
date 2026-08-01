@@ -1,0 +1,32 @@
+SIMS 4 MOD DOCTOR — OFFICIAL BUILD AND SECURITY GUIDE
+
+ALWAYS FREE. MADE BY ALPRA.
+
+An official release must contain:
+  Sims4ModDoctor.exe
+  Read Me.txt
+  LICENSE.txt
+  SECURITY.txt
+  SHA256SUMS.txt
+  Release Manifest.txt
+
+HOW TO CHECK A DOWNLOAD
+
+1. Never pay for Sims 4 Mod Doctor. Paid copies are unauthorized.
+2. Keep every file in the official release together.
+3. Open SHA256SUMS.txt and compare the executable hash if you know how.
+4. In the program, click MADE BY ALPRA to open About & Verification.
+5. Compare the SHA-256 value displayed by the program with SHA256SUMS.txt.
+6. Once public code signing is enabled, right-click the executable, choose Properties, open Digital Signatures, and confirm the Alpra publisher signature is valid.
+
+CURRENT SIGNING STATUS
+
+The build pipeline supports packaging and verification files. A publicly trusted Authenticode identity still needs to be purchased/configured before a valid Alpra signature can appear. Never trust a different publisher merely because a file is signed.
+
+IF YOU FIND A PAID OR MODIFIED COPY
+
+Save the listing URL, seller account name, screenshots, receipt, download and displayed checksum. Report the listing to the marketplace as copyright infringement, unauthorized resale and deceptive software impersonation. Do not run suspicious modified copies.
+
+CHECKSUM LIMITATION
+
+A SHA-256 checksum detects whether two files differ. A scammer could replace both an executable and an unsigned checksum file, so checksums become authoritative only when obtained from Alpra's official release location or protected by an Alpra digital signature.

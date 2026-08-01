@@ -1,0 +1,43 @@
+SIMS 4 MOD DOCTOR FREEWARE LICENCE
+Version 1.0 — Copyright © 2026 Alpra. All rights reserved.
+
+IMPORTANT: Sims 4 Mod Doctor is free. If you paid specifically for this software, the seller was not authorized by Alpra.
+
+1. PERMISSION
+Alpra grants individuals permission to use Sims 4 Mod Doctor without charge for personal, non-commercial Sims 4 troubleshooting.
+
+2. FREE REDISTRIBUTION
+You may share the official, unmodified release free of charge only when all original files remain together, including Sims4ModDoctor.exe, LICENSE.txt, Read Me.txt, SECURITY.txt, SHA256SUMS.txt and Release Manifest.txt.
+
+3. PROHIBITED CONDUCT
+You may not:
+  a. sell, rent, sublicense, paywall or charge for Sims 4 Mod Doctor;
+  b. include it in a paid bundle, membership, subscription or service;
+  c. solicit payment in exchange for access to the download;
+  d. remove or conceal the Alpra name, copyright, free-software notice, icon, licence or verification information;
+  e. modify the software and present the result as an official Alpra build;
+  f. use the name Sims 4 Mod Doctor, Alpra branding or its icon to imply endorsement;
+  g. distribute a modified build that contains malware, advertising, tracking, unwanted software or deceptive behaviour;
+  h. circumvent technical verification measures for the purpose of impersonation, resale or deceptive redistribution.
+
+Reasonable charges for unrelated physical media or general technical labour do not grant permission to claim ownership of, sell access to, or misrepresent this software. The software itself must remain freely obtainable.
+
+4. MODIFICATIONS
+No permission is granted to distribute modified binaries under the Sims 4 Mod Doctor name or Alpra branding. Written permission from Alpra is required for any public modified distribution.
+
+5. OWNERSHIP
+The software, source code, branding, icon, documentation and original design remain the intellectual property of Alpra. This licence grants limited permission to use and share; it does not transfer ownership.
+
+6. TERMINATION
+Permission ends automatically if you breach this licence. On termination, you must stop distributing the software and remove unauthorized copies under your control.
+
+7. NO AFFILIATION
+Sims 4 Mod Doctor is an independent fan-made utility. It is not affiliated with, endorsed by or sponsored by Electronic Arts Inc., Maxis or The Sims franchise. Their names and marks belong to their respective owners.
+
+8. DISCLAIMER
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, ALPRA IS NOT LIABLE FOR LOSS, DAMAGE, DATA LOSS OR OTHER CLAIMS ARISING FROM USE OF THE SOFTWARE. ALWAYS BACK UP SIMS 4 SAVES AND MODS, AND DO NOT SAVE AN IMPORTANT GAME WHILE MODS ARE DISABLED.
+
+9. REPORTING
+Until an official reporting address is published, retain evidence of unauthorized sales, including the listing URL, seller name, screenshots, receipt and downloaded files. Compare the executable with the official Alpra release and its published SHA-256 checksum.
+
+This is a proprietary freeware licence, not an open-source licence. If you require permission outside these terms, obtain written permission from Alpra.
