@@ -38,13 +38,18 @@
       <h2>Official download</h2>
       <p>Download the latest protected release directly from Alpra's official GitHub repository. Sims 4 Mod Doctor is always free.</p>
       <a class="download-button" href="https://github.com/adoptedcat/sims4-mod-doctor/releases/latest/download/Sims4ModDoctor-v2.0.0-Alpra.zip">Download Sims 4 Mod Doctor</a>
+      <p class="download-count" id="download-count" aria-live="polite">Loading official download count…</p>
       <p class="release-link"><a href="https://github.com/adoptedcat/sims4-mod-doctor/releases/latest">View release notes and verification files</a></p>
+      <div class="security-note">
+        <strong>Never disable your antivirus to use Mod Doctor.</strong>
+        <p>No legitimate copy requires you to pause protection or create an antivirus exclusion. If your security software detects the download, do not bypass the warning—verify that it came from this official website, compare its SHA-256 checksum, and contact Alpra for support.</p>
+      </div>
     </section>
     <section class="support" id="support">
       <h2>Support &amp; Contact</h2>
       <p>Need help, found a problem, or have an idea for the project? Feel free to add and message Alpra on Discord:</p>
       <p class="discord-contact"><span>Discord</span><strong>.alpra.</strong></p>
-      <p>Project support is free.</p>
+      <p>Project support is free. Please never send passwords, account details, save files, or other private information.</p>
       <h3>Want to help support development?</h3>
       <p>Sims 4 Mod Doctor will always be free. If it has helped you and you would like to support future improvements, you can leave Alpra a completely optional tip on Ko-fi.</p>
       <a class="support-button" href="https://ko-fi.com/supportalpra" target="_blank" rel="noopener noreferrer">Support Alpra on Ko-fi</a>
@@ -56,6 +61,7 @@
         <li>Keep the executable, licence, security guide and checksum file together.</li>
         <li>Click <strong>MADE BY ALPRA</strong> inside the program to view its SHA-256 value.</li>
         <li>Compare that value with the official release's <code>SHA256SUMS.txt</code>.</li>
+        <li>Never disable antivirus protection or add an exclusion for Mod Doctor.</li>
         <li>Once code signing is enabled, confirm the Alpra signature under Windows File Properties → Digital Signatures.</li>
       </ol>
     </section>
@@ -69,5 +75,29 @@
     </section>
   </main>
   <footer>Copyright © 2026 Alpra · Freeware · Resale prohibited · <a href="https://ko-fi.com/supportalpra" target="_blank" rel="noopener noreferrer">Support on Ko-fi</a></footer>
+  <script>
+    (function () {
+      var counter = document.getElementById('download-count');
+      fetch('https://api.github.com/repos/adoptedcat/sims4-mod-doctor/releases', {
+        headers: { 'Accept': 'application/vnd.github+json' }
+      })
+        .then(function (response) {
+          if (!response.ok) throw new Error('GitHub API request failed');
+          return response.json();
+        })
+        .then(function (releases) {
+          var total = releases.reduce(function (releaseTotal, release) {
+            return releaseTotal + release.assets.reduce(function (assetTotal, asset) {
+              var isProgramDownload = /^Sims4ModDoctor-.*\.zip$/i.test(asset.name);
+              return assetTotal + (isProgramDownload ? (asset.download_count || 0) : 0);
+            }, 0);
+          }, 0);
+          counter.textContent = total.toLocaleString() + (total === 1 ? ' official download' : ' official downloads');
+        })
+        .catch(function () {
+          counter.textContent = 'Download count temporarily unavailable';
+        });
+    }());
+  </script>
 </body>
 </html>
